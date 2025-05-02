@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/cde8756e-d59a-4f2d-a2e7-e31591e1ae76>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 00b52216-78f6-49e9-945a-365f0f9f4bd1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 00b52216-78f6-49e9-945a-365f0f9f4bd1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6c165aac-6e5a-4ead-80db-0364bacb393c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6c165aac-6e5a-4ead-80db-0364bacb393c>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    gameManager: false
+    audioController: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      audioController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

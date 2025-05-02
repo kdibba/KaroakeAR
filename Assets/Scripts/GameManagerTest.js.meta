@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/1c2ed07f-a53e-45c3-8859-4c0c47c354a1>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a4c79dd3-8800-4062-8dcc-2ba29d2d3dd7
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a4c79dd3-8800-4062-8dcc-2ba29d2d3dd7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 845a9cf0-916d-4344-be11-b46dbc916535
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/845a9cf0-916d-4344-be11-b46dbc916535>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audioController: false
+    uiController: false
+    startButton: false
+    pauseButton: false
+    nextSingerButton: false
+    statusText: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - audioController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      uiController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      startButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      pauseButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      nextSingerButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+      statusText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

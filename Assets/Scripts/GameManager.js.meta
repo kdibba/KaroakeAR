@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/7c1d2aed-313c-47fa-a72c-cbfaefa59638>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f226a6d6-a016-4bb6-8137-777b95a18e3e
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f226a6d6-a016-4bb6-8137-777b95a18e3e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> ae4452f1-c994-4190-8436-53f03048c893
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/ae4452f1-c994-4190-8436-53f03048c893>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audioComponent: false
+    syncComponent: false
+    uiComponent: false
+    effectsController: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      syncComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      uiComponent: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      effectsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

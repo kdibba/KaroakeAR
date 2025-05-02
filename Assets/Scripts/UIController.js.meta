@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/887e301f-9f4a-4ce3-a7bc-1103f44b3698>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f763b31b-121b-4836-acd9-5a6716e5badc
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f763b31b-121b-4836-acd9-5a6716e5badc
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> bd998359-2e86-49cf-87d1-1c87b2636c63
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/bd998359-2e86-49cf-87d1-1c87b2636c63>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    lyricsText: false
+    songInfoText: false
+    gameManager: false
+    syncController: false
+    effectsController: false
+    nextButton: false
+  ScriptTypesHidden:
+    {}
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - lyricsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      songInfoText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      gameManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      syncController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      effectsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      nextButton: !<reference.Button> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
